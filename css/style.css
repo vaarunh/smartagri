@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: block;
+    max-width: max-content;
+    margin: auto;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1563365488-1e365499ba88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head {
+    max-width: max-content;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.heading {
+    margin: auto;
+    font-size: 60px;
+    color: #fff;
+    font-family: Satisfy;
+    max-width: max-content;
+    word-spacing: 15px;
+    font-weight: 600;
+}
+
+.subtitle {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.drag-area {
+    border: 2px dashed #fff;
+    height: 400px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba( 255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 5.5px);
+    -webkit-backdrop-filter: blur( 5.5px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.drag-area.active {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.drag-area .icon {
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.drag-area header {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.drag-area span {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin: 10px 0 15px 0;
+}
+
+.drag-area button {
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: rgb(255, 255, 255);
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.drag-area img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.ftp {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 15px;
+    margin-top: 10px;
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: block;
+    max-width: max-content;
+    margin: auto;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1563365488-1e365499ba88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head {
+    max-width: max-content;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.heading {
+    margin: auto;
+    font-size: 60px;
+    color: #fff;
+    font-family: Satisfy;
+    max-width: max-content;
+    word-spacing: 15px;
+    font-weight: 600;
+}
+
+.subtitle {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.drag-area {
+    border: 2px dashed #fff;
+    padding: 40px;
+    height: 430px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba( 255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 5.5px);
+    -webkit-backdrop-filter: blur( 5.5px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+
+.drag-area header {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+
+.drag-area button {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: rgb(255, 255, 255);
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#input{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    width: 100%;
+}
